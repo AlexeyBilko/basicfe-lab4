@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: 10px;
+}
+
+.image-container {
+    overflow: hidden;
+    width: 100%;
+}
+    
+    .image-container a {
+        display: block;
+        width: 100%;
+    }
+    
+    .image-container a img {
+        width: 100%;
+    }

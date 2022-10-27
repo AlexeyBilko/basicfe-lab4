@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="html, frontend, kpi, github">
+    <meta name="description" content="basicfe - laboratory work 1">
+    <title>Білько О.Є. ІП-02, Лабораторна робота №1, Варіант 10</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <h2 id="firstElement" onclick="changeColorFirstElement()">Білько Олексій Євгенович</h2>
+    <p id="secondElement" onclick="changeColorSecondElement()">
+        6 липня 2003 року, місто Київ, Україна
+    </p>
+    <p>
+        Школа: Політехнічний ліцей НТУУ "КПІ", Університет: НТУУ "КПІ"
+    </p>
+    <ul>
+        <li>Футбол</li>
+        <li>Маркетинг</li>
+        <li>Подорожі</li>
+        <li>Тренажерний зал</li>
+    </ul>
+    <ol>
+        <li>Гарі Поттер (фільм і книга)</li>
+        <li>Єкзамен (фільм)</li>
+        <li>Великий Гетсбі (фільм)</li>
+    </ol>
+    <p>
+        Київ. Це коротке звучне слово – назва міста, корені якого йдуть глибоко в сиву давнину.
+        Його історія нараховує більш ніж 1500 років. Це одне з найстаріших слов'янських міст - 
+        столиця ранньофеодальної держави Київська Русь.
+        Один із центрів, де зароджувалася рання слов'янська культура  як  важлива  складова  світової цивілізації.
+    </p>
+    <div class="container">
+        <div class="image-container">
+            <a href="https://kyivcity.gov.ua">
+                <img src="images/kyiv.jpg" alt="Kyiv photo">
+            </a>
+        </div>
+    </div>
+
+    <div>
+        <button id="addImageButton" onclick="AddNewImage()">Додати</button>
+        <button id="zoomInImageButton" onclick="ZoomIn()">Збільшити</button>
+        <button id="zoomOutImageButton" onclick="ZoomOut()">Зменшити</button>
+        <button id="removeImageButton" onclick="RemoveLastImage()">Видалити</button>
+    </div>
+</body>
+</html>
